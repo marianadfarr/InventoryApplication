@@ -27,9 +27,9 @@ if st.button("Submit"):
 
     #Give price prediction
     st.markdown(f'A house in the zip code {zip_code} with {bed} bedroom(s), {bath} bathroom(s),  {acre_lot} acre(s), and {house_size} square feet would be approximately ${new_prediction_int}.')
-    #Give Accuracy
-    accuracy = model.model.score(model.X_test, model.y_test)
-    st.markdown("Prediction accuracy is {0:.2f}%".format(accuracy*100))
+    #Give r^2
+#     r2 = model.model.score(model.X_test, model.y_test)
+#     st.markdown("Prediction r^2 is r2")
 
 
 #posting the graphs
