@@ -35,7 +35,7 @@ if st.button("Submit"):
 #posting the graphs
 
 price_graph = Image.open('price-graph.png')
-st.image(price-graph)
+st.image(price_graph)
 
 size_graph= Image.open('size_graph.png')
 st.image(size_graph)
