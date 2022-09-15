@@ -34,10 +34,10 @@ if st.button("Submit"):
 
 #posting the graphs
 
-bar_graph = Image.open('bar-graph.png')
+price_graph = Image.open('price-graph.png')
 st.image(bar_graph)
 
-scatter= Image.open('scatter_plot.png')
+size_graph= Image.open('size_graph.png')
 st.image(scatter)
 
 pie= Image.open('pie_chart.png')
